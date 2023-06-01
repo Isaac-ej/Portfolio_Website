@@ -1,14 +1,10 @@
 <a name="readme-top"></a>
-
-
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
@@ -28,142 +24,82 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Personal_Portfolio] <a name="about-project"></a>
+# 📖 [Portfolio_Website] <a name="about-project"></a>
+ This Project is Built as a Portfolio Website in The Microverse Curriculums Projects
+<br>
+Welcome to My Project
+This is the Hello Microverse Project in The Microverse curriculum With HTML&CSS.
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
-
+<!--built With-->
 ## 🛠 Built With <a name="built-with"></a>
+<!--Tech stack --->
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack">
+The Project in Built with :
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+</ul>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
+</a>
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Key Features <a name="key-features">
+- Logo
+- Hamburger-Menu
+- Headline
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+## 💻 Getting Started <a name="getting-started">
+  To get a local copy up and running, follow these steps.
 
-> Describe how a new developer could make use of your project.
+  Fork the repo,
+  run git clone 
+  run cd my-repo
+</a>
 
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+.npm
+ npm init -y
+ npx hint .
 
 ### Setup
 
-Clone this repository to your desired folder:
+ Clone this repository to your desired folder:
+  
+  .Use the following command to navigate to your desired folder:
 
-<!--
-Example commands:
+  cd C:\Users\...
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+  .Run the following code to clone the repository to your desired folder:
+
+  git clone git@github.com:isaac-ej/Portfolio_website.git
+
+  .Run the following command to move to your cloned folder
+
+  cd Portfolio_website
 
 ### Install
 
-Install this project with:
+Now in Your Terminal run <a name="npm">npm install</a>  to install all the Dependencies:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+<a name="npm">npm install</a>
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+opening the project by launching the Live Server plugging in visual studio code or any other means that you know.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,31 +107,26 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ejama-isaac-bab607267/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+## 🔭 Future Features <a name="future-features">
+This is my Personnel Portfolio and I have added some new features to this repository they are as follows :
+- I have created HTML Boilerplate Template
+- The Project Title
+- Styled The Title In the CSS Stylesheet
+- More More Functionality will be soon added In the near future to 
+ Make this Portfolio as a Complete Website.
+ - will deploy this project shortly  
+</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,9 +144,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project Support Us!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,50 +152,20 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Microverse for this Great oportinute To empower us To Showcase our skills.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**git 
-
-  - [Answer_2]
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 License <a name="license">
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-ReadMe
-
-MIT
-
-## Copyright 2021, [YOUR NAME]
-
-###### Please delete this line and the next one
-###### APP TYPE can be a webpage/website, a web app, a software and so on
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this [APP TYPE] and associated documentation files, to deal in the [APP TYPE] without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the [APP TYPE], and to permit persons to whom the [APP TYPE] is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the [APP TYPE].
-
-THE [APP TYPE] IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE [APP TYPE] OR THE USE OR OTHER DEALINGS IN THE [APP TYPE].
