@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
 body {
-  font-family: 'Poppins'sans-serif;
+ font-family: 'Poppins';
   max-width: 768px;
   margin: auto;
   margin-top: 5%;
@@ -35,6 +35,7 @@ nav .hamburger-menu {
 
 .title h1 {
   font-size: 3rem;
+  font-family: 'Poppins';
 }
 /* @media(min-width: 750px) {
   body {
