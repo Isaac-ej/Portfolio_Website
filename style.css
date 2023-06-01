@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: 'Poppins'sans-serif;
+  max-width: 768px;
+  margin: auto;
+  margin-top: 5%;
+  min-width: 750px;
+  padding: 6%;
+}
+
+nav {
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo a {
+  color: #6070ff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+nav .hamburger-menu {
+  color: #6070ff;
+  font-weight: 700;
+  font-size: 2rem;
+}
