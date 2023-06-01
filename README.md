@@ -109,8 +109,8 @@ opening the project by launching the Live Server plugging in visual studio code 
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- GitHub: [@githubhandle](https://github.com/isaac-ej)
+- Twitter: [@twitterhandle](https://github.com/isaac-ej)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ejama-isaac-bab607267/)
 
 
