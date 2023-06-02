@@ -1,12 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: 'Poppins'sans-serif;
   max-width: 768px;
   margin: auto;
   margin-top: 1%;
   padding: 6%;
-  height: 70vh;
+  height: 75vh;
   position: relative;
 }
 
@@ -18,7 +21,7 @@ header {
   background-size: cover;
   background-position: inherit;
   background-color: #fff;
-  padding: 5%;
+  padding: 6%;
 }
 
 .logo {
@@ -39,22 +42,22 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 1%;
-}
-
-nav .hamburger-menu {
+  position: absolute;
+  right: 6%;
   color: #6070ff;
   font-weight: 700;
   font-size: 1.6rem;
   cursor: pointer;
-  position: absolute;
-  top: 7.5rem;
-  right: 6.5rem;
+}
+
+header {
+  position: relative;
 }
 
 .title {
   display: flex;
   flex-direction: column;
-  margin-top: 5%;
+  margin-top: 6%;
 }
 
 .title h1 {
@@ -63,7 +66,7 @@ nav .hamburger-menu {
   text-transform: capitalize;
   color: #172b4d;
   margin-top: 18%;
-  margin-bottom: 1%;
+  margin-bottom: 4%;
 }
 
 p {
@@ -73,7 +76,7 @@ p {
   font-size: 20px;
   line-height: 25px;
   color: #344563;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
 }
 
 h2 {
@@ -83,7 +86,7 @@ h2 {
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
-  margin-bottom: 10px;
+  margin-bottom: 3%;
 }
 
 .socials {
@@ -109,7 +112,7 @@ h2 {
   color: red;
 }
 
-@media (max-width: 775px) and (min-width: 800px) {
+@media (max-width: 775px) and (min-width: 900px) {
   body {
     max-width: 750px;
     margin: auto;
@@ -131,13 +134,4 @@ h2 {
     transform: translateX(-70%);
   }
 
-  nav .hamburger-menu {
-    color: #6070ff;
-    font-weight: 700;
-    font-size: 1.6rem;
-    cursor: pointer;
-    position: absolute;
-    top: 3.3rem;
-    right: 3.2rem;
-  }
 }
