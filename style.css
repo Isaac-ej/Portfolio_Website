@@ -9,9 +9,10 @@ body {
   max-width: 768px;
   margin: auto;
   margin-top: 1%;
-  padding: 10%;
   height: 70vh;
   position: relative;
+  padding: 7%;
+  overflow: hidden;
 }
 
 header {
@@ -24,7 +25,7 @@ header {
   background-color: #fff;
   padding: 5%;
   position: relative;
-  overflow: hidden;
+  margin-bottom: 10rem;
 }
 
 .logo {
@@ -99,6 +100,7 @@ h2 {
   list-style: none;
   flex-grow: 0;
   transform: translateX(-56%);
+  margin-bottom: 5rem;
 }
 
 .socials li a img {
