@@ -2,11 +2,12 @@
 
 body {
   font-family: 'Poppins'sans-serif;
-  max-width: 678px;
+  max-width: 768px;
   margin: auto;
   margin-top: 1%;
   padding: 6%;
   height: 70vh;
+  position: relative;
 }
 
 header {
@@ -20,7 +21,13 @@ header {
   padding: 5%;
 }
 
-.logo { font-weight: 700; }
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  display: flex;
+}
 
 .logo a {
   color: #6070ff;
@@ -39,6 +46,9 @@ nav .hamburger-menu {
   font-weight: 700;
   font-size: 1.6rem;
   cursor: pointer;
+  position: absolute;
+  top: 7.5rem;
+  right: 6.5rem;
 }
 
 .title {
@@ -73,32 +83,33 @@ h2 {
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .socials {
   position: relative;
-  top: 40px;
+  top: 20px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  width: 30%;
-  height: 1rem;
-  flex: none;
+  width: 10%;
+  height: 1.2rem;
   list-style: none;
   flex-grow: 0;
-  padding-left: 0;
+  transform: translateX(-56%);
 }
 
 .socials li a img {
-  transition: transform 1s;
+  padding: 0 15px;
+  transition: transform 0.1s;
 }
 
 .socials li a img:hover {
-  transform: translateX(-20%);
+  transform: translateY(-20%);
+  color: red;
 }
 
-@media (max-width: 775px) {
+@media (max-width: 775px) and (min-width: 800px) {
   body {
     max-width: 750px;
     margin: auto;
@@ -111,7 +122,22 @@ h2 {
   }
 
   .socials {
-    width: 40%;
-    top: 40px;
+    position: absolute;
+    left: 11%;
+    right: 57.07%;
+    top: 95%;
+    bottom: 18.87%;
+    flex-grow: 0;
+    transform: translateX(-70%);
+  }
+
+  nav .hamburger-menu {
+    color: #6070ff;
+    font-weight: 700;
+    font-size: 1.6rem;
+    cursor: pointer;
+    position: absolute;
+    top: 3.3rem;
+    right: 3.2rem;
   }
 }
