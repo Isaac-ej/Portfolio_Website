@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Poppins'sans-serif;
   max-width: 768px;
@@ -22,6 +23,7 @@ header {
   background-position: inherit;
   background-color: #fff;
   padding: 6%;
+  position: relative;
 }
 
 .logo {
@@ -48,10 +50,6 @@ nav {
   font-weight: 700;
   font-size: 1.6rem;
   cursor: pointer;
-}
-
-header {
-  position: relative;
 }
 
 .title {
@@ -133,5 +131,4 @@ h2 {
     flex-grow: 0;
     transform: translateX(-70%);
   }
-
 }
