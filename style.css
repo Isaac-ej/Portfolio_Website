@@ -9,8 +9,8 @@ body {
   max-width: 768px;
   margin: auto;
   margin-top: 1%;
-  padding: 6%;
-  height: 75vh;
+  padding: 10%;
+  height: 70vh;
   position: relative;
 }
 
@@ -22,8 +22,9 @@ header {
   background-size: cover;
   background-position: inherit;
   background-color: #fff;
-  padding: 6%;
+  padding: 5%;
   position: relative;
+  overflow: hidden;
 }
 
 .logo {
@@ -115,6 +116,7 @@ h2 {
     max-width: 750px;
     margin: auto;
     text-align: start;
+    overflow: hidden;
   }
 
   .title {
