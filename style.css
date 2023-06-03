@@ -128,7 +128,6 @@ h2 {
   font-family: 'Poppins' sans-serif;
   max-width: 768px;
   margin: auto;
-  position: absolute;
   padding: -150% 0;
   background: #E5e5e5;
   display: grid;
@@ -202,7 +201,7 @@ h2 {
   margin-bottom: 2rem;
   width: 100%;
   background-color: #E5e5e5;
-  color:#fff;
+  color: #6070ff;
   padding: .2rem .9rem;
   border-radius: 15px;
   font-family: 'Poppins';
@@ -221,13 +220,17 @@ button {
   border: #6070ff solid 1px;
   margin-bottom: 1rem;
 }
+
+.about-container {
+  display: flex;
+  background-color: red;
+}
 @media (max-width: 775px) and (min-width: 800px) {
   body {
     max-width: 750px;
     margin: auto;
     text-align: start;
     margin-bottom: -5rem;
-    overflow: hidden;
   }
 
   .title {
