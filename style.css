@@ -9,7 +9,7 @@ body {
   max-width: 768px;
   margin: auto;
   margin-top: 1%;
-  height: 70vh;
+  /* height: 70vh; */
   position: relative;
   padding: 7%;
   overflow: hidden;
@@ -118,7 +118,7 @@ h2 {
     max-width: 750px;
     margin: auto;
     text-align: start;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .title {
