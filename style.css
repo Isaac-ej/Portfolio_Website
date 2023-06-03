@@ -144,6 +144,15 @@ h2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  position: relative;
+  align-items: flex-start;
+}
+
+.tonic {
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: 'poppins';
+  transform: translateX(-30%);
 }
 @media (max-width: 775px) and (min-width: 900px) {
   body {
