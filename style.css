@@ -9,10 +9,8 @@ body {
   max-width: 768px;
   margin: auto;
   margin-top: 1%;
-  height: 70vh;
   position: relative;
-  padding: 7%;
-  overflow: hidden;
+  padding: 7% 0;
 }
 
 header {
@@ -99,8 +97,6 @@ h2 {
   height: 1.2rem;
   list-style: none;
   flex-grow: 0;
-  transform: translateX(-56%);
-  margin-bottom: 5rem;
 }
 
 .socials li a img {
@@ -113,12 +109,48 @@ h2 {
   color: red;
 }
 
+/* .works {
+  padding: -2% 6%;
+  background-color: #ddd;
+  overflow-x: hidden;
+} */
+ .snap img {
+  width: 100%;
+ }
+ .bg {
+  background-color: #fff;
+  padding: 5%;
+  border: 1px solid #a7aeff;
+  border-radius: 20px;
+ }
+.container {
+  padding:6%;
+  border: 2px solid #b200;
+  font-family: 'Poppins' sans-serif;
+  max-width: 768px;
+  margin: auto;
+  position: absolute;
+  padding: -150% 0;
+  background: #E5e5e5;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.left-block {
+  padding: 6%;
+}
+
+.primary-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 @media (max-width: 775px) and (min-width: 900px) {
   body {
     max-width: 750px;
     margin: auto;
     text-align: start;
-    overflow: hidden;
+    margin-bottom: -5rem;
   }
 
   .title {
