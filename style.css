@@ -306,7 +306,7 @@ li img {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 
 .tech ul {
