@@ -319,14 +319,21 @@ li img {
   align-items: center;
 }
 
+.langs p {
+  transform: translateX(50%);
+}
+
 .div {
-  margin: 0 5px;
+  margin: 6px;
 }
 
 .langs span {
-  margin-left: 12px;
-  padding-left: 2px;
+  margin-right: 10px;
+  margin-left: 4px;
   font-size: 12px;
+  color: #7a869a;
+  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
 }
 
 .langs p {
@@ -338,6 +345,7 @@ li .div {
   width: 10px;
   height: 10px;
   border-radius: 50%;
+  /* margin: 0 5px; */
 }
 
 .under-lines {
@@ -403,7 +411,7 @@ li .div {
     height: 5px;
   }
 
-  .frame p { font-size: 12px; }
+  .frame p { font-size: 10px; }
 
   .primary-text {
     display: flex;
