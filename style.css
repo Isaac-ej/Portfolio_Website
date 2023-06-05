@@ -153,10 +153,6 @@ li img {
 
 .tonic {
   font-size: 25px;
-  font-weight: bolder;
-  font-family: 'poppins', sans-serif;
-  transform: translateX(-1%);
-  color: #344563;
 }
 
 .frame {
@@ -170,7 +166,6 @@ li img {
 .heading2 {
   font-size: 17px;
   margin-top: -1.5rem;
-}
 
 .langs li { list-style: none; }
 .frame ul {
@@ -330,7 +325,6 @@ li img {
 .langs p { transform: translateX(-32%); }
 
 .div { margin: 6px; }
-
 .langs span {
   margin-right: 10px;
   margin-left: 4px;
@@ -345,8 +339,8 @@ li .div {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-}
-
+ }
+  
 .under-lines {
   padding: 1.5rem 0;
   border-bottom: 2px solid #e5e5e5;
