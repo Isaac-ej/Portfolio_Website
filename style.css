@@ -151,8 +151,6 @@ li img {
 
 .primary-text {
   display: flex;
-
-  /* flex-direction: column; */
   flex-wrap: wrap;
   position: relative;
   align-items: flex-start;
@@ -363,8 +361,6 @@ li .div {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-
-  /* margin: 0 5px; */
 }
 
 .under-lines {
@@ -386,90 +382,3 @@ li .div {
 .fas-circle {
   background-color: #7a869a;
 }
-
-/* @media (max-width: 775px) and (min-width: 800px) {
-  body {
-    max-width: 750px;
-    margin: auto;
-    text-align: start;
-    margin-bottom: -5rem;
-    overflow: hidden;
-  }
-
-  .title {
-    height: 146px;
-    margin-top: 12%;
-  }
-
-  .socials {
-    position: absolute;
-    left: 11%;
-    right: 57.07%;
-    top: 95%;
-    bottom: 18.87%;
-    flex-grow: 0;
-    transform: translateX(-70%);
-  }
-
-  .tonic {
-    font-size: 20px;
-    font-weight: bolder;
-    font-family: 'poppins', sans-serif;
-    display: flex;
-  }
-
-  .frame ul {
-    list-style: none;
-    margin-left: 1rem;
-    width: 10%;
-    transform: translateX(60%);
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .frame ul li { font-size: 12px; }
-
-  .frame ul li .spans {
-    width: 5px;
-    height: 5px;
-  }
-
-  .frame p { font-size: 10px; }
-
-  .primary-text {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .techs ul li {
-    margin-right: 15px;
-    margin-bottom: 2rem;
-    background-color: #ebebff;
-    color: #6070ff;
-    padding: 0.3rem 0.6rem;
-    border-radius: 15px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 10px;
-    position: relative;
-  }
-} */
-
-/* @media (min-width: 375px) {
-  .langs span {
-    margin-right: 5px;
-    margin-left: 5px;
-    padding-left: 2px;
-    font-size: 12px;
-  }
-
-  .heading2 {
-    font-size: 16px;
-    margin-top: -1.5rem;
-    line-height: 2;
-  }
-    .tonic {
-     font-size: 25px;
-     font-weight:bold;
-     width: 50%;
-  }
-} */
