@@ -148,8 +148,6 @@ li img {
 
 .primary-text {
   display: flex;
-
-  /* flex-direction: column; */
   flex-wrap: wrap;
   position: relative;
   align-items: flex-start;
@@ -157,16 +155,10 @@ li img {
 
 .tonic {
   font-size: 25px;
-
-  /* font-weight: bolder; */
   font-family: 'poppins', sans-serif;
   transform: translateX(-1%);
   color: #344563;
-
-  /* font-size: 25px; */
   font-weight: bold;
-
-  /* width: 50%; */
 }
 
 .frame {
@@ -353,14 +345,6 @@ li img {
   color: #7a869a;
   font-weight: normal;
   font-family: 'Poppins', sans-serif;
-
-  /*
-  .langs span {
-      margin-right: 5px;
-      margin-left: 5px;
-
-      font-size: 12px;
-    } */
 }
 
 li .div {
@@ -368,7 +352,6 @@ li .div {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-
   /* margin: 0 5px; */
 }
 
@@ -387,4 +370,3 @@ li .div {
 }
 
 .fas-circle { background-color: #7a869a; }
-
