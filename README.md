@@ -6,14 +6,11 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -48,9 +45,6 @@ The Project in Built with :
 - Logo
 - Hamburger-Menu
 - Headline
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -159,7 +153,6 @@ I would like to thank Microverse for this Great opportunities to  empower Every 
 
 <!-- FAQ (optional) -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
@@ -168,5 +161,4 @@ I would like to thank Microverse for this Great opportunities to  empower Every 
 
 This project is [MIT](./LICENSE) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
