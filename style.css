@@ -121,3 +121,20 @@ li img {
   transform: translateY(-20%);
   color: red;
 }
+
+/*  */
+.work {
+ background: #e5e5e5;
+ padding: 15% 6%;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 6%;
+}
+
+.gb-img img {
+  width: 100%;
+}
