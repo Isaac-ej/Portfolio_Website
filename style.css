@@ -187,7 +187,7 @@ li img {
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
-  margin-right: 0.8rem;
+  margin-right: 0.5rem;
   font-style: normal;
 }
 
@@ -262,9 +262,9 @@ li .div {
 .btn-a {
   border: 1px solid #396df2;
   padding: 0.7rem 0.9rem;
-  color: #396df2;
+  background: #2230D2;
   border-radius: 8px;
-  background-color: transparent;
+  color: #fff;
   font-weight: 500;
   font-size: 17px;
   letter-spacing: 0.03em;
