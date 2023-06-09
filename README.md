@@ -92,7 +92,7 @@ Now in Your Terminal run <a name="npm">npm install</a>  to install all the Depen
 
 ### Usage
 
-opening the project by launching the Live Server plugging in visual studio code or any other means that you know.
+opening the project by launching the Live Server plugin in visual studio code or any other means that you know.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
