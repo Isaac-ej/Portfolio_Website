@@ -30,7 +30,7 @@ header {
   background-color: #fff;
   padding: 5%;
   position: relative;
-  margin-bottom: 6rem;
+  margin-bottom: 1rem;
   border-radius: 0 0 0 7rem;
 }
 
@@ -105,7 +105,7 @@ h2 {
   height: 1.2rem;
   list-style: none;
   flex-grow: 0;
-  padding-bottom: 2rem;
+  padding-bottom: 10rem;
 }
 
 li img {
