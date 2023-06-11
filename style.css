@@ -500,20 +500,24 @@ li .imgs {
 
 .form_container .p {
   font-weight: 400;
-  font-size: 18px;
   text-align: center;
   color: #ebebff;
   padding: 0.9rem 2rem;
   width: 100%;
   padding-bottom: 0.7rem;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .form_heading {
  padding-top: 4rem;
  padding-bottom: 2rem;
- line-height: 52px;
  font-weight: 700;
  font-size: 40px;
+ font-family: 'Poppins', sans-serif;
+ font-style: normal;
+ 
 }
 
 .form_container .form_btn {
@@ -580,6 +584,8 @@ textarea {
   font-weight: 500;
   background-color: #ffffff;
   cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 hr {
