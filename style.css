@@ -496,6 +496,7 @@ li .imgs {
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
+  overflow: hidden;
 }
 
 .form_container .p {
