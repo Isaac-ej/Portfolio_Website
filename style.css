@@ -587,6 +587,16 @@ textarea {
   letter-spacing: 0.03em;
 }
 
+.form_btn:hover {
+ background: #6070ff;
+ color: #ffffff;
+}
+
+.active:active  {
+  background: #2230d2;
+  color: #ffffff;
+}
+
 hr {
   background: #0d151e;
   border-radius: 10px;
