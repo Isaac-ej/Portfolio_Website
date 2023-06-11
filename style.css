@@ -479,13 +479,13 @@ li .imgs {
 .form {
   margin-top: 5rem;
   padding: 6%;
-  color: #ffffff;
+  color: #fff;
   background-image: url("img/contact-form.png");
   background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  background-clip:inherit;
+  background-clip: inherit;
   background-position: 30px -50px;
   border-radius: 5rem 0 0 0;
 }
@@ -506,19 +506,17 @@ li .imgs {
   padding: 0.9rem 2rem;
   width: 100%;
   padding-bottom: 0.7rem;
-  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
 }
 
 .form_heading {
- padding-top: 4rem;
- padding-bottom: 2rem;
- font-weight: 700;
- font-size: 40px;
- font-family: 'Poppins', sans-serif;
- font-style: normal;
- 
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
 }
 
 .form_container .form_btn {
@@ -531,6 +529,7 @@ li .imgs {
   border-radius: 8px;
   overflow: hidden;
 }
+
 .form-wrap {
   display: flex;
   flex-direction: column;
@@ -545,7 +544,6 @@ form input {
   font-weight: 400;
   font-size: 17px;
   color: #172b4d;
-  padding-left: 1rem;
   border-radius: 8px;
   padding: 0.7rem;
   outline: none;
@@ -563,39 +561,39 @@ textarea {
 }
 
 .textarea {
- font-weight: 400;
- font-size: 14px;
- color: #B3BAC5;
- padding: 0.8rem 0.5rem;
- font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #b3bac5;
+  padding: 0.8rem 0.5rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .button {
- display: flex;
- justify-content: flex-start;
- align-items: flex-start;
- margin: 1rem;
- transform: translateX(8%);
- overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1rem;
+  transform: translateX(8%);
+  overflow: hidden;
 }
 
 .button .form_btn {
   padding: 0.8rem 1rem;
   font-size: 17px;
   font-weight: 500;
-  background-color: #ffffff;
+  background-color: #fff;
   cursor: pointer;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 hr {
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 10px;
   width: 35%;
   height: 5px;
   margin: auto;
   border: none;
   margin-top: 1rem;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
