@@ -591,13 +591,13 @@ textarea {
 }
 
 .form_btn:hover {
- background: #6070ff;
- color: #ffffff;
+  background: #6070ff;
+  color: #fff;
 }
 
-.active:active  {
+.actives:active {
   background: #2230d2;
-  color: #ffffff;
+  color: #fff;
 }
 
 hr {
@@ -607,8 +607,7 @@ hr {
   height: 5px;
   margin: auto;
   border: none;
-  left: calc(48% - 134px/2 - 0.5px);
-  bottom: 8px;
+  left: calc(48% - 134px / 2 - 0.5px);
   position: absolute;
   bottom: 1rem;
 }
