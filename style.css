@@ -475,3 +475,139 @@ li .imgs {
   cursor: pointer;
   font-size: 16px;
 }
+
+.form {
+  margin-top: 5rem;
+  padding: 6% -1.5rem;
+  color: #fff;
+  background-image: url("img/contact-form.png");
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-clip: inherit;
+  background-position: 30px -51px;
+  border-radius: 5rem 0 0 0;
+  position: relative;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  overflow: hidden;
+}
+
+.form_container .p {
+  font-weight: 400;
+  text-align: center;
+  color: #ebebff;
+  padding: 0.9rem 2rem;
+  width: 100%;
+  padding-bottom: 0.7rem;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.form_heading {
+  padding-top: 8rem;
+  padding-bottom: -0.1rem;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  z-index: 100;
+}
+
+.form_container .form_btn {
+  border: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.form-wrap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.3rem;
+}
+
+form input {
+  display: block;
+  width: 80%;
+  transform: translateX(13%);
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 17px;
+  color: #172b4d;
+  border-radius: 8px;
+  padding: 0.7rem;
+  outline: none;
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+textarea {
+  width: 80%;
+  transform: translateX(13%);
+  display: block;
+  border-radius: 8px;
+  outline: none;
+  resize: none;
+  margin-bottom: 2rem;
+}
+
+.textarea {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b3bac5;
+  padding: 0.8rem 0.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1rem;
+  transform: translateX(8%);
+  overflow: hidden;
+}
+
+.button .form_btn {
+  padding: 0.8rem 1rem;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #fff;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 2.5rem;
+}
+
+.form_btn:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.actives:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+hr {
+  background: #0d151e;
+  border-radius: 10px;
+  width: 35%;
+  height: 5px;
+  margin: auto;
+  border: none;
+  left: calc(48% - 134px / 2 - 0.5px);
+  position: absolute;
+  bottom: 1rem;
+}
