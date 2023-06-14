@@ -721,6 +721,7 @@ hr {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 5rem;
     row-gap: 1rem;
+    padding:4%;
   }
 
   .card-container:nth-child(odd) {
@@ -738,4 +739,18 @@ hr {
   .head-a {
     width: 89.5%;
   }
+
+  .about-container {
+   padding: 0;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3rem;
+    justify-items: center;
+    align-items:baseline;
+  }
 }
+
+
