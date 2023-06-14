@@ -92,7 +92,7 @@ Now in Your Terminal run <a name="npm">npm install</a>  to install all the Depen
 
 ### Usage
 
-opening the project by launching the Live Server plugin in visual studio code or any other means that you know.
+Opening the project by launching the Live Server plugin in visual studio code or any other means that you know.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,7 +107,6 @@ opening the project by launching the Live Server plugin in visual studio code or
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ejama-isaac-bab607267/)
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
@@ -117,11 +116,10 @@ This is my Personnel Portfolio and I have added some new features to this reposi
 - The Project Title
 - Styled The Title In the CSS Stylesheet
 - More More Functionality will be soon added In the near future to 
- Make this Portfolio as a Complete Website.
+ Make this Portfolio a Complete Website.
  - will deploy this project shortly  
 </a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -131,7 +129,6 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/Isaac-ej/Portfolio_Website/issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
@@ -139,14 +136,13 @@ Feel free to check the [issues page](https://github.com/Isaac-ej/Portfolio_Websi
 
 If you like this project Support Us!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microverse for this Great opportunities to  empower Every aspiring Developers World wide To Showcase our skills.
+I would like to thank Microverse for these Great opportunities to  empower aspiring Developers Worldwide To Showcase our skills.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
