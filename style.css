@@ -11,9 +11,8 @@ body {
   max-width: 768px;
   min-width: 375px;
   margin: auto;
-  margin-top: 1%;
   position: relative;
-  padding: 7% 0;
+  background: #f7f7f9;
 }
 
 .container_bg {
@@ -22,6 +21,16 @@ body {
 }
 
 header {
+  padding: 0 3%;
+  display: flex;
+  background-color: #ffffff;
+}
+
+header .hamburger-menu {
+ font-size: 22px;
+}
+
+.showcase {
   display: flex;
   flex-direction: column;
   background-image: url(img/header-shapes\ mobile.png);
@@ -31,7 +40,6 @@ header {
   background-color: #fff;
   padding: 5%;
   position: relative;
-  margin-bottom: 1rem;
   border-radius: 0 0 0 7rem;
 }
 
@@ -52,9 +60,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 1%;
-  position: absolute;
-  right: 6%;
+  align-items: center;
   color: #6070ff;
   font-weight: 700;
   font-size: 1.6rem;
@@ -617,26 +623,61 @@ hr {
 }
 
 
-@media(min-width:769px) and (max-width:1200px) {
-  body {
-    min-width: 769px;
-    max-width: 1200px;
-    margin: auto;
+@media(min-width:769px) and (max-width:1473px) {
+   body {
     padding: 0;
-  }
+    margin: auto;
+    max-width: 1473px;
+    min-width: 769;
+  } 
   .hamburger-menu {
     display: none;
   }
 
+  header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #ffffff;
+   height: 70px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1;
+   width: 100%;
+  }
   nav {
     display: flex;
+    padding: 0;
+  }
+
+  header .logo {
+    font-weight: 700;
+    font-size: 18px;
+    color: #6070ff;
+    padding-left: 5rem;
   }
   nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    list-style: none;
   }
-    nav ul li {
-      display: flex;
-    }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #6070ff;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 1rem;
+  }
+
+  .showcase .title {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   margin: 0 6%;
+   width: 90%;
+  }
 }
