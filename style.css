@@ -622,13 +622,11 @@ hr {
   bottom: 1rem;
 }
 
-@media (min-width: 769px) and (max-width: 1473px) {
+@media (min-width: 769px) and (max-width: 1920px) {
   body {
-    padding: 0;
-    margin: auto;
-    max-width: 1473px;
-    min-width: 769px;
-    transition: all 1s 1s ease-in-out;
+   margin: auto;
+   min-width: 769px;
+   max-width: 1200px;
   }
 
   .hamburger-menu {
@@ -853,7 +851,6 @@ hr {
 
   .solid {
     transform: translateY(-150%);
-    /* transform: translateX(-30%); */
     display: flex;
     justify-content: space-between;
     cursor: pointer;
