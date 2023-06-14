@@ -11,16 +11,25 @@ body {
   max-width: 768px;
   min-width: 375px;
   margin: auto;
-  margin-top: 1%;
   position: relative;
-  padding: 7% 0;
 }
 
-.container_bg {
+.body {
   background: #f7f7f9;
+
 }
 
 header {
+  padding: 2% 3%;
+  display: flex;
+  background-color: #ffffff;
+}
+
+header .hamburger-menu {
+  font-size: 22px;
+}
+
+.showcase {
   display: flex;
   flex-direction: column;
   background-image: url(img/header-shapes\ mobile.png);
@@ -30,8 +39,7 @@ header {
   background-color: #fff;
   padding: 5%;
   position: relative;
-  margin-bottom: 1rem;
-  border-radius: 0 0 0 7rem;
+  border-bottom-left-radius: 8rem;
 }
 
 .logo {
@@ -51,13 +59,15 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 1%;
-  position: absolute;
-  right: 6%;
+  align-items: center;
   color: #6070ff;
   font-weight: 700;
   font-size: 1.6rem;
   cursor: pointer;
+}
+
+nav ul {
+  display: none;
 }
 
 .title {
@@ -611,3 +621,5 @@ hr {
   position: absolute;
   bottom: 1rem;
 }
+
+
