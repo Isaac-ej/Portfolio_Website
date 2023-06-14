@@ -16,13 +16,12 @@ body {
 
 .body {
   background: #f7f7f9;
-
 }
 
 header {
   padding: 2% 3%;
   display: flex;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 header .hamburger-menu {
@@ -622,5 +621,3 @@ hr {
   position: absolute;
   bottom: 1rem;
 }
-
-
