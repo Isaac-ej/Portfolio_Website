@@ -658,7 +658,7 @@ hr {
     font-weight: 700;
     font-size: 18px;
     color: #6070ff;
-    padding-left: 5rem;
+    margin-left: 5rem;
   }
 
   nav ul {
@@ -680,21 +680,26 @@ hr {
   }
 
   .showcase {
-    transform: translateY(10%);
+    background-image: url(img/Header\ bg@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -30px -0.6rem;
+    object-fit: cover;
+    padding: -1rem;
+    transform: translateY(9%);
   }
 
   .showcase .title {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    align-items: start;
     margin: 0 15%;
-    width: 78%;
+   
   }
-
+  
   .title h1 {
     font-weight: 700;
     font-size: 48px;
-    line-height: 60px;
     color: #091e42;
   }
 
