@@ -782,11 +782,11 @@ hr {
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
     justify-items: center;
-    align-items: baseline; 
+    align-items: baseline;
     padding-top: 8rem;
     padding-left: 6%;
     padding-right: 6%;
-    padding-bottom: 5rem; 
+    padding-bottom: 5rem;
   }
 
   .about-h1-b {
