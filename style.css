@@ -688,11 +688,13 @@ hr {
   .showcase {
     background-image: url(img/Header\ bg@2x.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: -30px -0.6rem;
-    object-fit: cover;
-    padding: -1rem;
-    transform: translateY(9%);
+    /* background-size: cover; */
+    /* background-position: 30px 1rem; */
+    /* object-fit: cover; */
+    /* padding: -1rem; */
+    transform: translateY(10.8%);
+    /* height: 718px; */
+    padding: 1rem;
   }
 
   .showcase .title {
@@ -869,16 +871,16 @@ hr {
   }
 
   .form {
-    padding: -5%;
+    padding: 5%;
     color: #fff;
-    background-image: url("img/contact\ form\ background\ shapes@2x.png");
+    background-image: url("img/contact\ form\ background\ shapes.svg");
     background-color: #6070ff;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: inherit;
-    background-position: -120px 250px;
+    background-position-y: inherit;
+    background-position: 100rem -1090rem 200px 100rem;
+    object-position: cover;
     border-radius: 5rem 0 0 0;
-    position: absolute;
+    position: relative;
   }
 
   .form_container .p {
