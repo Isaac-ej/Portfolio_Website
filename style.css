@@ -737,6 +737,7 @@ hr {
     row-gap: 1rem;
     padding:4%;
     width: 100%;
+    box-shadow: 5px 10px 20px 12px rgba(0, 0, 0, 0.1);
   }
 
   .card-container:nth-child(odd) {
