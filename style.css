@@ -171,11 +171,6 @@ li img {
   color: #6070ff;
 }
 
-.socials li:hover,
-.social li:hover {
-  transform: translateY(-10px);
-}
-
 .social li a img {
   padding: 0 15px;
   transform: translateX(-23%);
@@ -565,10 +560,6 @@ form input {
   outline: none;
   border: 0;
   font-family: 'Poppins', sans-serif;
-}
-
-input:focus {
-  border-bottom: 3px solid #1ed5f5;
 }
 
 textarea {
