@@ -688,31 +688,36 @@ hr {
   .showcase {
     background-image: url(img/Header\ bg@2x.png);
     background-repeat: no-repeat;
-    transform: translateY(10.8%);
-    padding: 1rem;
+    transform: translateY(9%);
+    padding: 2rem;
   }
 
   .showcase .title {
     display: flex;
     flex-wrap: wrap;
     align-items: start;
-    margin: 1rem 15%;
+    margin: 0.5rem 15%;
     padding-top: -5rem;
   }
 
   .title h1 {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 45px;
     color: #091e42;
+    line-height: 50px;
+    margin-bottom: 1rem;
+  }
+
+  .span {
+    display: block;
   }
 
   .title p {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: #344563;
-    height: 122px;
   }
 
   .title h2 {
@@ -729,25 +734,50 @@ hr {
 
   .card-container {
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 5rem;
+    column-gap: 3rem;
     row-gap: 1rem;
-    padding: 4%;
+    padding: 2%;
     width: 100%;
     box-shadow: 5px 10px 20px 12px rgba(0, 0, 0, 0.1);
   }
 
-  .card-container:nth-child(odd) {
+  .card-container:nth-child(even) {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     gap: 15px;
   }
-
+  
   .card-container:nth-child(even) {
     align-items: center;
+    justify-content: center;
+    text-align: start;
+    padding: 1.5rem;
   }
 
+  .last {
+    width: 100%;
+    transform: translateX(-2%);
+  }
+  .para {
+    padding-right: 2rem;
+  }
+
+  .contents-b {
+    position: relative;
+    padding-bottom: 5rem;
+    overflow: hidden;
+  }
+
+  .card-container .contents {
+    transform: translateY(-5%);
+    overflow: hidden;
+  }
+
+ .ps {
+    display: block;
+  }
   .socials li img {
     width: 40px;
     height: 40px;
@@ -886,7 +916,6 @@ hr {
   }
 
   form input {
-    border-radius: 0;
     padding: 0.8rem;
     width: 150%;
     color: #172b4d;
@@ -900,7 +929,6 @@ hr {
   }
 
   textarea {
-    border-radius: 0;
     outline: none;
     resize: none;
     width: 150%;
@@ -934,6 +962,7 @@ hr {
     letter-spacing: 0.03em;
     margin-bottom: 2.5rem;
     margin-right: 2.5rem;
+    border-radius: 8px;
   }
 
   .form_btn:hover {
