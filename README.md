@@ -24,7 +24,7 @@
  This Project is Built as a Portfolio Website in The Microverse Curriculums Projects
 <br>
 Welcome to My Project
-This is the Hello Microverse Project in The Microverse curriculum With HTML&CSS.
+This is the My Portfolio Project Build in The Microverse curriculum.
 
 <!--built With-->
 ## 🛠 Built With <a name="built-with"></a>
