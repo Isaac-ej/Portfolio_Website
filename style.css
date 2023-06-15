@@ -866,6 +866,11 @@ hr {
     font-size: 12px;
   }
 
+  .socials li:hover,
+  .social li:hover {
+    transform: translateY(-10px);
+  }
+
   .socials li a {
     margin-right: -1.5rem;
     width: 20px;
@@ -926,6 +931,10 @@ hr {
     font-size: 18px;
     align-items: center;
     transform: translateX(-18%);
+  }
+
+  input:focus {
+    border-bottom: 3px solid #1ed5f5;
   }
 
   textarea {
