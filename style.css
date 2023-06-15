@@ -140,7 +140,11 @@ li img {
 
 .socials li a img {
   padding: 0 12px;
-  transition: transform 0.1s;
+  transition: transform 1s 0.3s ;
+}
+
+.socials li:hover {
+  transform: translateY(-10px);
 }
 
 .social li a img {
