@@ -766,7 +766,7 @@ hr {
   }
 
   .card-container .contents {
-    transform: translateY(-5%);
+    transform: translateY(-3%);
     overflow: hidden;
   }
 
