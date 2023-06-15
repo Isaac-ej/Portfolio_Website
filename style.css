@@ -784,8 +784,9 @@ hr {
     object-fit: fill;
   }
 
-  .head-a {
-    width: 89.5%;
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .about {
@@ -793,11 +794,11 @@ hr {
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
     justify-items: center;
-    align-items: baseline;
+    align-items: baseline; 
     padding-top: 8rem;
     padding-left: 6%;
     padding-right: 6%;
-    padding-bottom: 5rem;
+    padding-bottom: 5rem; 
   }
 
   .about-h1-b {
@@ -876,11 +877,9 @@ hr {
     background-image: url("img/contact\ form\ background\ shapes.svg");
     background-color: #6070ff;
     background-repeat: no-repeat;
-    background-position-y: inherit;
-    background-position: 100rem -1090rem 200px 100rem;
-    object-position: cover;
     border-radius: 5rem 0 0 0;
-    position: relative;
+    background-position: -5px 110px;
+    background-size: contain;
   }
 
   .form_container .p {
