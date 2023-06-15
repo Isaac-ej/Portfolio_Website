@@ -747,12 +747,6 @@ hr {
     justify-content: space-between;
     align-items: flex-start;
     gap: 15px;
-  }
-  
-  .card-container:nth-child(even) {
-    align-items: center;
-    justify-content: center;
-    text-align: start;
     padding: 1.5rem;
   }
 
@@ -760,6 +754,7 @@ hr {
     width: 100%;
     transform: translateX(-2%);
   }
+
   .para {
     padding-right: 2rem;
   }
@@ -775,9 +770,10 @@ hr {
     overflow: hidden;
   }
 
- .ps {
+  .ps {
     display: block;
   }
+
   .socials li img {
     width: 40px;
     height: 40px;
@@ -952,7 +948,6 @@ hr {
   }
 
   .button .form_btn {
-    border-radius: 0;
     padding: 0.8rem 1rem;
     font-size: 17px;
     font-weight: 500;
