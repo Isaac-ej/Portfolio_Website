@@ -622,11 +622,11 @@ hr {
   bottom: 1rem;
 }
 
-@media (min-width: 769px) and (max-width: 1920px) {
+ @media (min-width: 769px) and (max-width: 1920px) { 
   body {
    margin: auto;
    min-width: 769px;
-   max-width: 1200px;
+   max-width: 1920px;
   }
 
   .hamburger-menu {
