@@ -709,12 +709,11 @@ hr {
   }
 
   .title p {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: #344563;
-    width: 920px;
     height: 122px
   }
 
@@ -722,8 +721,7 @@ hr {
     font-weight: 500;
     font-size: 16px;
     color: #7f8cff;
-    margin-top: -2rem;
-    padding: 0;
+    margin-top: -0.5rem;
   }
 
   .work {
