@@ -688,12 +688,7 @@ hr {
   .showcase {
     background-image: url(img/Header\ bg@2x.png);
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    /* background-position: 30px 1rem; */
-    /* object-fit: cover; */
-    /* padding: -1rem; */
     transform: translateY(10.8%);
-    /* height: 718px; */
     padding: 1rem;
   }
 
@@ -780,13 +775,6 @@ hr {
 
   .card-containers .gb-img img {
     width: 100%;
-    overflow: hidden;
-    object-fit: fill;
-  }
-
-  .about-container {
-    display: flex;
-    flex-wrap: wrap;
   }
 
   .about {
