@@ -572,6 +572,11 @@ textarea {
   margin-bottom: 2rem;
 }
 
+input:focus {
+  border-bottom: 3px solid #1ed5f5;
+}
+
+
 .textarea {
   font-weight: 400;
   font-size: 14px;
