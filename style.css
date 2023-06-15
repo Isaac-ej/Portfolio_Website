@@ -562,6 +562,10 @@ form input {
   font-family: 'Poppins', sans-serif;
 }
 
+input:focus {
+  border-bottom: 3px solid #1ed5f5;
+}
+
 textarea {
   width: 80%;
   transform: translateX(13%);
