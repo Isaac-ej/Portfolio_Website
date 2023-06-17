@@ -83,6 +83,7 @@ nav ul {
   color: #172b4d;
   margin-top: 18%;
   margin-bottom: 4%;
+  animation: transform 3s 2s ease-in-out forwards;
 }
 
 p {
@@ -93,6 +94,27 @@ p {
   line-height: 25px;
   color: #344563;
   margin-bottom: 4%;
+  animation: transform-b 3s 2s ease-in-out forwards;
+}
+
+@keyframes transform {
+  from {
+    transform: translateY(-1200px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes transform-b {
+  from {
+    transform: translateX(-120000px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
 }
 
 h2 {
@@ -140,7 +162,35 @@ li img {
 
 .socials li a img {
   padding: 0 12px;
-  transition: transform 0.1s;
+  transition: transform 1s 0.3s;
+}
+
+.skills ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.skills ul li {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  margin-right: 0.5rem;
+  font-style: normal;
+}
+
+.tech ul li {
+  margin-right: 2rem;
+  background: #ebebff;
+  border-radius: 8px;
+  align-items: center;
+  padding: 4px 12px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #6070ff;
 }
 
 .social li a img {
@@ -183,23 +233,6 @@ li img {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-}
-
-.skills ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-  line-height: 1;
-}
-
-.skills ul li {
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
-  margin-right: 0.5rem;
-  font-style: normal;
 }
 
 .div {
@@ -252,17 +285,6 @@ li .div {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
-}
-
-.tech ul li {
-  margin-right: 2rem;
-  background: #ebebff;
-  border-radius: 8px;
-  align-items: center;
-  padding: 4px 12px;
-  font-weight: 500;
-  font-size: 12px;
-  color: #6070ff;
 }
 
 .tech ul li:hover {
@@ -572,6 +594,10 @@ textarea {
   margin-bottom: 2rem;
 }
 
+input:focus {
+  border-bottom: 3px solid #1ed5f5;
+}
+
 .textarea {
   font-weight: 400;
   font-size: 14px;
@@ -853,6 +879,11 @@ hr {
     padding: 0.5rem;
   }
 
+  .socials li,
+  .social li {
+    transition: all 1s 0.2s ease-in-out;
+  }
+
   .techs ul li {
     display: flex;
     flex-direction: column;
@@ -860,6 +891,11 @@ hr {
     padding: 1.5rem;
     font-weight: 500;
     font-size: 12px;
+  }
+
+  .socials li:hover,
+  .social li:hover {
+    transform: translateY(-10px);
   }
 
   .socials li a {
@@ -922,6 +958,10 @@ hr {
     font-size: 18px;
     align-items: center;
     transform: translateX(-18%);
+  }
+
+  input:focus {
+    border-bottom: 3px solid #1ed5f5;
   }
 
   textarea {
