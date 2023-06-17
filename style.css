@@ -83,6 +83,7 @@ nav ul {
   color: #172b4d;
   margin-top: 18%;
   margin-bottom: 4%;
+  animation: transform 3s 2s ease-in-out forwards;
 }
 
 p {
@@ -93,6 +94,27 @@ p {
   line-height: 25px;
   color: #344563;
   margin-bottom: 4%;
+  animation: transform-b 3s 2s ease-in-out forwards;
+}
+
+@keyframes transform {
+  from {
+    transform: translateY(-1200px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes transform-b {
+  from {
+    transform: translateX(-120000px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
 }
 
 h2 {
@@ -855,6 +877,11 @@ hr {
     display: flex;
     width: 30%;
     padding: 0.5rem;
+  }
+
+  .socials li,
+  .social li {
+    transition: all 1s 0.2s ease-in-out;
   }
 
   .techs ul li {
