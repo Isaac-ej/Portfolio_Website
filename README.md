@@ -46,7 +46,6 @@ The Project in Built with :
 
 ## 🚀 Live Demo <a name="live-demo">
 </a>
-<<<<<<< HEAD
 
 - [Live Demo Link](https://isaac-ej.github.io/Portfolio_Website/)
 
