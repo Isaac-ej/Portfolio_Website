@@ -30,7 +30,7 @@ This is the My Portfolio Project Build in The Microverse curriculum.
 <!--Tech stack --->
 
 ### Tech Stack <a name="tech-stack">
-The Project in Built with :
+The Project is Built with :
 <ul>
 <li>HTML</li>
 <li>CSS</li>
@@ -60,8 +60,6 @@ The Project in Built with :
   run git clone 
   run cd my-repo
 </a>
-
-
 ### Prerequisites
 
 In order to run this project you need:
@@ -171,7 +169,7 @@ This is the My Portfolio Project Build in The Microverse curriculum.
 <!--Tech stack --->
 
 ### Tech Stack <a name="tech-stack">
-The Project in Built with :
+The Project is Built with :
 <ul>
 <li>HTML</li>
 <li>CSS</li>
@@ -185,9 +183,7 @@ The Project in Built with :
 - Hamburger-Menu
 - Headline
 
-=======
->>>>>>> main
-
+  
 - [Live Demo Link](https://isaac-ej.github.io/Portfolio_Website/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
