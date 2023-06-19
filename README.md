@@ -6,11 +6,13 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -45,7 +47,10 @@ The Project in Built with :
 - Hamburger-Menu
 - Headline
 
+## 🚀 Live Demo <a name="live-demo">
+</a>
 
+- [Live Demo Link](https://isaac-ej.github.io/Portfolio_Website/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,6 +101,8 @@ Opening the project by launching the Live Server plugin in visual studio code or
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Deployment 
+Deployed using Github pages
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -155,5 +162,3 @@ I would like to thank Microverse for these Great opportunities to  empower aspir
   MIT License
 
 This project is [MIT](./LICENSE) licensed.
-
-
