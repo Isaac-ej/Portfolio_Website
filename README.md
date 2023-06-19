@@ -46,6 +46,7 @@ The Project in Built with :
 
 ## 🚀 Live Demo <a name="live-demo">
 </a>
+<<<<<<< HEAD
 
 - [Live Demo Link](https://isaac-ej.github.io/Portfolio_Website/)
 
@@ -185,7 +186,10 @@ The Project in Built with :
 - Hamburger-Menu
 - Headline
 
+=======
+>>>>>>> main
 
+- [Live Demo Link](https://isaac-ej.github.io/Portfolio_Website/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -236,6 +240,8 @@ Opening the project by launching the Live Server plugin in visual studio code or
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Deployment 
+Deployed using Github pages
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
