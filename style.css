@@ -123,7 +123,7 @@ h2 {
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;
+  color: #396df2;
   margin-bottom: 3%;
 }
 
@@ -184,13 +184,13 @@ li img {
 
 .tech ul li {
   margin-right: 2rem;
-  background: #ebebff;
+  background: #e5e5e5;
   border-radius: 8px;
   align-items: center;
   padding: 4px 12px;
   font-weight: 500;
   font-size: 12px;
-  color: #6070ff;
+  color: #396df2;
 }
 
 .social li a img {
@@ -478,7 +478,7 @@ li .imgs {
 }
 
 .connect-b {
-  color: #6070ff;
+  color: #396df2;
   margin: 0.5rem 0;
   font-size: 15px;
   font-weight: 400;
@@ -749,7 +749,7 @@ hr {
   .title h2 {
     font-weight: 500;
     font-size: 16px;
-    color: #7f8cff;
+    color: #396df2;
     margin-top: -0.5rem;
   }
 
