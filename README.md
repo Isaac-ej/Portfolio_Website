@@ -43,7 +43,7 @@ The Project is Built with :
 - Logo
 - Hamburger-Menu
 - Headline
-
+- More details about the project https://www.loom.com/share/91457cc71bb7456d87793eb35e4c3234?t=27&sid=a7a372e2-937a-44e1-b5d8-2fcc46e5c507
 ## 🚀 Live Demo <a name="live-demo">
 </a>
 
